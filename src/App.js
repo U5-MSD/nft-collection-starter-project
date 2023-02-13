@@ -49,6 +49,7 @@ const App = () =>{
   };
 
   const setupEventListener = async () => {
+    const CONTRACT_ADDRESS = "0x4C40e7703D4b42f82428369d0c8E7BAf9A76b996";
     try{
       const { ethereum } = window;
       if(ethereum) {
